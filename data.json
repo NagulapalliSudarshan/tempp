@@ -1,165 +1,272 @@
 {
-    "stepsForRegressionAutomation": [
-        {
-            "target": "body",
-            "content": "<h5>Welcome to Regression Automation!!</h5>",
-            "placement": "center",
-            "locale": { "skip": "Skip" }
-        },
-        {
-            "target": "#accordionSidebar",
-            "content": "This is the navigation bar",
-            "placement": "right"
-        },
-        {
-            "target": "#userDropdown",
-            "content": "To logout and check profile"
-        },
-        {
-            "target": ".TestBasicSearchFirstColumn",
-            "content": "This is the Regression testing Section"
-        },
-        {
-            "target": ".TestBasicSearchFirstDropdownColumn .p-dropdown.p-component.p-inputwrapper.p-dropdown-trigger",
-            "content": "<ContentComponent content='Select your functional area using this dropdown' listItems='[\"Inventory and Stock Ledger\",\"Revenue Accounting-SUS\",\"Revenue Accounting-COI\",\"Item & Purchase Offer\"]' listHeader='The options are:'/>"
-        },
-        {
-            "target": ".TestBasicSearchThirdDropdownColumn .p-dropdown.p-component.p-inputwrapper.p-dropdown-trigger",
-            "content": "<ContentComponent content='Select the desired test type using this dropdown' listItems='[\"Regression\",\"E2E\"]' listHeader='The options are:'/>"
-        },
-        {
-            "target": ".TestBasicSearchSecondDropdownColumn .p-dropdown.p-component.p-inputwrapper.p-dropdown-trigger",
-            "content": "<ContentComponent content='Select desired Entity that you need' listItems='[\"Inventory and Stock Ledger\",\"Revenue Accounting-SUS\",\"Revenue Accounting-COI\",\"Item & Purchase Offer\"]' listHeader='The options are:'/>"
-        },
-        {
-            "target": ".TestBasicSearchFourthColumn > .p-button.p-component.small.p-button-gapgrey.ml-2:nth-of-type(1)",
-            "content": "<ContentComponent content='Click this button to see previous runs'/>"
-        },
-        {
-            "target": ".TestBasicSearchFourthColumn > .p-button.p-component.small.p-button-gapgrey.ml-2:nth-of-type(2)",
-            "content": "<ContentComponent content='Click this button to create a new run'/>"
-        },
-        {
-            "target": "#pr_id_18_content",
-            "content": "<ContentComponent content='Shows all the run details in a tabular form and also does the summary of the run in a form for pie chart'/>"
-        },
-        {
-            "target": ".ant-space.css-dev-only-do-not-override-11xg00t.ant-space-horizontal.ant-space-align-center.ant-space-gap-row-small.ant-space-gap-col-small > .ant-space-item:nth-of-type(1)",
-            "content": "<ContentComponent content='This table shows all the run details' listItems='[\"Run Id : shows the Id of each run item\",\"Run Status : shows if the run is Success/Fail\",\"Create Date : shows the date of run creation\",\"Completed Date : shows the date of run completion\",\"POT download : to download all the details of the a run\"]' listHeader='The columns of the table are:'/>"
-        },
-        {
-            "target": ".ant-space.css-dev-only-do-not-override-11xg00t.ant-space-horizontal.ant-space-align-center.ant-space-gap-row-small.ant-space-gap-col-small > .ant-space-item:nth-of-type(2)",
-            "content": "<ContentComponent content='Summary section shows a pie chart of number of success and failed run'/>"
-        },
-        {
-            "target": "#pr_id_20_content",
-            "content": "<ContentComponent content='This table shows all the details of a scenario' listHeader='The columns are:' listItems='[\"Scenario Seq : shows the sequence of scenario\",\"Scenario Desc: shows the desc of the scenario\",\"status : show if it is success or failed scenario\",\"Data Available Ind : data\",\"Enable Ind : Used to enable Ind\",\"View Validations : to view all the validations of the scenario\"]'/>"
-        },
-        {
-            "target": ".p-button.p-component.styledButton.p-button-icon-only",
-            "content": "<ContentComponent content='For asking more queries click on the chatbot button'/>"
-        }
-    ],
-    "stepsForPerformanceTesting": [
-        {
-            "target": "body",
-            "content": "<h5>Welcome to Performance Testing</h5>",
-            "placement": "center",
-            "locale": { "skip": "Skip" }
-        },
-        {
-            "target": "body",
-            "content": "<div><h2>¯\\_(ツ)_/¯</h2><h5>Working in progress..</h5></div>",
-            "placement": "center",
-            "locale": { "skip": "Skip" }
-        }
-    ],
-    "stepsForRestAPI": [
-        {
-            "target": "body",
-            "content": "<h5>Welcome to Rest API !!</h5>",
-            "placement": "center",
-            "locale": { "skip": "Skip" }
-        },
-        {
-            "target": ".TestBasicSearchFirstDropdownColumn .p-dropdown.p-component.p-inputwrapper.p-dropdown-trigger",
-            "content": "<ContentComponent content='Select your functional area using this dropdown' listItems='[\"Inventory and Stock Ledger\"]' listHeader='There is only one option in this case which is:'/>"
-        },
-        {
-            "target": ".TestBasicSearchSecondDropdownColumn .p-dropdown.p-component.p-inputwrapper.p-dropdown-trigger",
-            "content": "<ContentComponent content='Select your Entity area using this dropdown' listItems='[\"WAC API\"]' listHeader='There is only one option in this case which is:'/>"
-        },
-        {
-            "target": ".TestBasicSearchFourthColumn > .p-button.p-component.small.p-button-gapgrey.ml-2:nth-of-type(1)",
-            "content": "<ContentComponent content='Click this button to see previous runs'/>"
-        },
-        {
-            "target": ".TestBasicSearchFourthColumn > .p-button.p-component.small.p-button-gapgrey.ml-2:nth-of-type(2)",
-            "content": "<ContentComponent content='Click this button to create a new run'/>"
-        },
-        {
-            "target": "#pr_id_11_content",
-            "content": "<ContentComponent content='Shows scenario values'/>"
-        }
-    ],
-    "stepForMaintenance": [
-        {
-            "target": "body",
-            "content": "<h5>Welcome to Maintenance !!</h5>",
-            "placement": "center",
-            "locale": { "skip": "Skip" }
-        },
-        {
-            "target": "#pr_id_18_header_0",
-            "content": "<ContentComponent content='Click to move to Scenario maintenance tab'/>"
-        },
-        {
-            "target": "#pr_id_18_header_1",
-            "content": "<ContentComponent content='Click to move to POT Query maintenance tab'/>"
-        },
-        {
-            "target": ".TestBasicSearchFirstDropdownColumn .p-dropdown.p-component.p-inputwrapper.p-dropdown-trigger",
-            "content": "<ContentComponent content='Select your functional area using this dropdown' listItems='[\"Inventory and Stock Ledger\",\"Revenue Accounting\",\"Item & Purchase Offer\"]' listHeader='The options are:'/>"
-        },
-        {
-            "target": ".TestBasicSearchSecondDropdownColumn .p-dropdown.p-component.p-inputwrapper.p-dropdown-trigger",
-            "content": "<ContentComponent content='Select your entity' listItems='[\"Inventory and Stock Ledger\",\"Revenue Accounting\",\"Item & Purchase Offer\"]' listHeader='The options are:'/>"
-        },
-        {
-            "target": ".TestBasicSearchFourthColumn .p-button.p-component.small.p-button-gapgrey.ml-2",
-            "content": "<ContentComponent content='Click on the button to test the scenario'/>"
-        },
-        {
-            "target": "#datatableTest",
-            "content": "<ContentComponent content='To check all the scenario test details in a tabular form' listHeader='The columns of the table are:' listItems='[\"Scenario Id : Shows the ID of the scenario\",\"Scenario Description : shows the description of the scenario \",\"Enable Id: To enable the ID\",\"Validation list : to show the list of all validations\"]'/>"
-        },
-        {
-            "target": ".TestScenarioButtons>.p-button.p-component.small.p-button-gapgrey.ml-2:nth-of-type(1)",
-            "content": "<ContentComponent content='Click on the button to add new scenarios'/>"
-        },
-        {
-            "target": ".TestScenarioButtons>.p-button.p-component.small.p-button-gapgrey.ml-2:nth-of-type(2)",
-            "content": "<ContentComponent content='Click on the button to update an existing scenario'/>"
-        }
-    ],
-    "stepsForPOTAutomation": [
-        {
-            "target": "body",
-            "content": "<h5>Welcome to POT Automation !!</h5>",
-            "placement": "center",
-            "locale": { "skip": "Skip" }
-        },
-        {
-            "target": "#application",
-            "content": "<ContentComponent content='Use this dropdown to select the desired application' listHeader='The options are :' listItems='[\"COI\",\"SUS\",\"RIS\"]'/>"
-        },
-        {
-            "target": "#environment",
-            "content": "<ContentComponent content='Use this dropdown to select the desired environment' listHeader='The options are :' listItems='[\"Dev\",\"Stage\"]'/>"
-        },
-        {
-            "target": "[id='0']",
-            "content": "<ContentComponent content='Shows all the POT Automation run details in a tabular form'/>"
-        }
-    ]
+  "stepsForRegressionAutomation": [
+    {
+      "target": "body",
+      "content": "<h5>Welcome to Regression Automation!!</h5>",
+      "placement": "center",
+      "locale": { "skip": "Skip" }
+    },
+    {
+      "target": "#accordionSidebar",
+      "content": "This is the navigation bar",
+      "placement": "right"
+    },
+    {
+      "target": "#userDropdown",
+      "content": "To logout and check profile"
+    },
+    {
+      "target": ".TestBasicSearchFirstColumn",
+      "content": "This is the Regression testing Section"
+    },
+    {
+      "target": ".TestBasicSearchFirstDropdownColumn .p-dropdown.p-component.p-inputwrapper.p-dropdown-trigger",
+      "contentProps": {
+        "content": "Select your functional area using this dropdown",
+        "listItems": [
+          "Inventory and Stock Ledger",
+          "Revenue Accounting-SUS",
+          "Revenue Accounting-COI",
+          "Item & Purchase Offer"
+        ],
+        "listHeader": "The options are:"
+      }
+    },
+    {
+      "target": ".TestBasicSearchThirdDropdownColumn .p-dropdown.p-component.p-inputwrapper.p-dropdown-trigger",
+      "contentProps": {
+        "content": "Select the desired test type using this dropdown",
+        "listItems": ["Regression", "E2E"],
+        "listHeader": "The options are:"
+      }
+    },
+    {
+      "target": ".TestBasicSearchSecondDropdownColumn .p-dropdown.p-component.p-inputwrapper.p-dropdown-trigger",
+      "contentProps": {
+        "content": "Select desired Entity that you need",
+        "listItems": [
+          "Inventory and Stock Ledger",
+          "Revenue Accounting-SUS",
+          "Revenue Accounting-COI",
+          "Item & Purchase Offer"
+        ],
+        "listHeader": "The options are:"
+      }
+    },
+    {
+      "target": ".TestBasicSearchFourthColumn > .p-button.p-component.small.p-button-gapgrey.ml-2:nth-of-type(1)",
+      "contentProps": {
+        "content": "Click this button to see previous runs"
+      }
+    },
+    {
+      "target": ".TestBasicSearchFourthColumn > .p-button.p-component.small.p-button-gapgrey.ml-2:nth-of-type(2)",
+      "contentProps": {
+        "content": "Click this button to create a new run"
+      }
+    },
+    {
+      "target": "#pr_id_18_content",
+      "contentProps": {
+        "content": "Shows all the run details in a tabular form and also does the summary of the run in a form for pie chart"
+      }
+    },
+    {
+      "target": ".ant-space.css-dev-only-do-not-override-11xg00t.ant-space-horizontal.ant-space-align-center.ant-space-gap-row-small.ant-space-gap-col-small > .ant-space-item:nth-of-type(1)",
+      "contentProps": {
+        "content": "This table shows all the run details",
+        "listItems": [
+          "Run Id : shows the Id of each run item",
+          "Run Status : shows if the run is Success/Fail",
+          "Create Date : shows the date of run creation",
+          "Completed Date : shows the date of run completion",
+          "POT download : to download all the details of the a run"
+        ],
+        "listHeader": "The columns of the table are:"
+      }
+    },
+    {
+      "target": ".ant-space.css-dev-only-do-not-override-11xg00t.ant-space-horizontal.ant-space-align-center.ant-space-gap-row-small.ant-space-gap-col-small > .ant-space-item:nth-of-type(2)",
+      "contentProps": {
+        "content": "Summary section shows a pie chart of number of success and failed run"
+      }
+    },
+    {
+      "target": "#pr_id_20_content",
+      "contentProps": {
+        "content": "This table shows all the details of a scenario",
+        "listItems": [
+          "Scenario Seq : shows the sequence of scenario",
+          "Scenario Desc: shows the desc of the scenario",
+          "status : show if it is success or failed scenario",
+          "Data Available Ind : data",
+          "Enable Ind : Used to enable Ind",
+          "View Validations : to view all the validations of the scenario"
+        ],
+        "listHeader": "The columns are:"
+      }
+    },
+    {
+      "target": ".p-button.p-component.styledButton.p-button-icon-only",
+      "contentProps": {
+        "content": "For asking more queries click on the chatbot button"
+      }
+    }
+  ],
+  "stepsForPerformanceTesting": [
+    {
+      "target": "body",
+      "content": "<h5>Welcome to Performance Testing</h5>",
+      "placement": "center",
+      "locale": { "skip": "Skip" }
+    },
+    {
+      "target": "body",
+      "content": "<div><h2>¯\\_(ツ)_/¯</h2><h5>Working in progress..</h5></div>",
+      "placement": "center",
+      "locale": { "skip": "Skip" }
+    }
+  ],
+  "stepsForRestAPI": [
+    {
+      "target": "body",
+      "content": "<h5>Welcome to Rest API !!</h5>",
+      "placement": "center",
+      "locale": { "skip": "Skip" }
+    },
+    {
+      "target": ".TestBasicSearchFirstDropdownColumn .p-dropdown.p-component.p-inputwrapper.p-dropdown-trigger",
+      "contentProps": {
+        "content": "Select your functional area using this dropdown",
+        "listItems": ["Inventory and Stock Ledger"],
+        "listHeader": "There is only one option in this case which is:"
+      }
+    },
+    {
+      "target": ".TestBasicSearchSecondDropdownColumn .p-dropdown.p-component.p-inputwrapper.p-dropdown-trigger",
+      "contentProps": {
+        "content": "Select your Entity area using this dropdown",
+        "listItems": ["WAC API"],
+        "listHeader": "There is only one option in this case which is:"
+      }
+    },
+    {
+      "target": ".TestBasicSearchFourthColumn > .p-button.p-component.small.p-button-gapgrey.ml-2:nth-of-type(1)",
+      "contentProps": {
+        "content": "Click this button to see previous runs"
+      }
+    },
+    {
+      "target": ".TestBasicSearchFourthColumn > .p-button.p-component.small.p-button-gapgrey.ml-2:nth-of-type(2)",
+      "contentProps": {
+        "content": "Click this button to create a new run"
+      }
+    },
+    {
+      "target": "#pr_id_11_content",
+      "contentProps": {
+        "content": "Shows scenario values"
+      }
+    }
+  ],
+  "stepsForMaintenance": [
+    {
+      "target": "body",
+      "content": "<h5>Welcome to Maintenance !!</h5>",
+      "placement": "center",
+      "locale": { "skip": "Skip" }
+    },
+    {
+      "target": "#pr_id_18_header_0",
+      "contentProps": {
+        "content": "Click to move to Scenario maintenance tab"
+      }
+    },
+    {
+      "target": "#pr_id_18_header_1",
+      "contentProps": {
+        "content": "Click to move to POT Query maintenance tab"
+      }
+    },
+    {
+      "target": ".TestBasicSearchFirstDropdownColumn .p-dropdown.p-component.p-inputwrapper.p-dropdown-trigger",
+      "contentProps": {
+        "content": "Select your functional area using this dropdown",
+        "listItems": [
+          "Inventory and Stock Ledger",
+          "Revenue Accounting",
+          "Item & Purchase Offer"
+        ],
+        "listHeader": "The options are:"
+      }
+    },
+    {
+      "target": ".TestBasicSearchSecondDropdownColumn .p-dropdown.p-component.p-inputwrapper.p-dropdown-trigger",
+      "contentProps": {
+        "content": "Select your entity",
+        "listItems": [
+          "Inventory and Stock Ledger",
+          "Revenue Accounting",
+          "Item & Purchase Offer"
+        ],
+        "listHeader": "The options are:"
+      }
+    },
+    {
+      "target": ".TestBasicSearchFourthColumn .p-button.p-component.small.p-button-gapgrey.ml-2",
+      "contentProps": {
+        "content": "Click on the button to test the scenario"
+      }
+    },
+    {
+      "target": "#datatableTest",
+      "contentProps": {
+        "content": "To check all the scenario test details in a tabular form",
+        "listHeader": "The columns of the table are:",
+        "listItems": [
+          "Scenario Id : Shows the ID of the scenario",
+          "Scenario Description : shows the descrption of the scenario ",
+          "Enable Id: To enable the ID",
+          "Validation list : to show the list of all validations"
+        ]
+      }
+    },
+    {
+      "target": ".TestScenarioButtons>.p-button.p-component.small.p-button-gapgrey.ml-2:nth-of-type(1)",
+      "contentProps": {
+        "content": "Click on the button to add new scenarios"
+      }
+    },
+    {
+      "target": ".TestScenarioButtons>.p-button.p-component.small.p-button-gapgrey.ml-2:nth-of-type(2)",
+      "contentProps": {
+        "content": "Click on the button to update an existing scenario"
+      }
+    }
+  ],
+  "stepsForPOTAutomation": [
+    {
+      "target": "body",
+      "content": "<h5>Welcome to POT Automation!!</h5>",
+      "placement": "center",
+      "locale": { "skip": "Skip" }
+    },
+    {
+      "target": "#accordionSidebar",
+      "content": "This is the navigation bar",
+      "placement": "right"
+    },
+    {
+      "target": ".p-button.p-component.styledButton.p-button-icon-only",
+      "contentProps": {
+        "content": "For asking more queries click on the chatbot button"
+      }
+    },
+    {
+      "target": ".TestBasicSearchFourthColumn > .p-button.p-component.small.p-button-gapgrey.ml-2:nth-of-type(2)",
+      "contentProps": {
+        "content": "Click this button to create a new run"
+      }
+    }
+  ]
 }
